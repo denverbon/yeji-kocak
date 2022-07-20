@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle yeji-kocak",
+        "command": "yeji-kocak:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "yeji-kocak",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "yeji-kocak:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
